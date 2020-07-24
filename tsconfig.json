@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "noLib": false,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["es6", "dom"],
+    "inlineSources":true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "sourceMap": true,
+    "baseUrl": "./"
+  },
+  "include": ["*.ts"],
+  "exclude": [
+    "./node_modules"
+  ]
+}
