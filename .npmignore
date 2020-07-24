@@ -1,10 +1,7 @@
 lib/demo/*
-components
-android
-ios
+src
 .babelrc
 node_modules
-/index.js
 
 app.json
 .watchmanconfig
